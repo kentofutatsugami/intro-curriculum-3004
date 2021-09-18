@@ -1,11 +1,16 @@
 {
-  "name": "sum",
+  "name": "multi-app",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Kento Futatsugami <futatsugami_kento@ideal-ltd.jp>",
+  "license": "ISC",
+  "repository": "git@github.com:kentofutatsugami/intro-curriculum-3004",
+  "dependencies": {
+    "multi": "../multi",
+    "sum": "../sum"
+  }
 }
